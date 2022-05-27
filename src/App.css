@@ -1,0 +1,22 @@
+.header, .main, .choice, .container, .footer {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.main {
+  flex-direction: column;
+}
+.choice {
+  margin-left: 4px;
+}
+.container, .footer {
+  justify-content: center;
+}
+.copy {
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+}
+.label {
+ margin-left: 4px;
+}
