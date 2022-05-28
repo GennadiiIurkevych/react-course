@@ -1,4 +1,3 @@
-
 import './App.css';
 import './Header';
 import './Main';
@@ -16,8 +15,7 @@ function App () {
     <Main />
     <Container />
     <Footer />
-   </> 
-  
+   </>  
   );
 }
 
