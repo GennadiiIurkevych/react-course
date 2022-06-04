@@ -16,7 +16,7 @@ function Main () {
       <h2>How would you rate our course?</h2>
       <ul>
         {
-          createArray(10).map((el, index) => <ItemMarks index={index +1}></ItemMarks>)
+          createArray(10).map((el, index) => <ItemMarks index={index +1} />)
         }
       </ul>
     </div> 
